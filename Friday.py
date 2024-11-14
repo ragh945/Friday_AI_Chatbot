@@ -3,7 +3,7 @@ import google.generativeai as genai
 from PIL import Image
 
 # Load and display the image
-image = Image.open(r"C:\Users\RAGHAVENDRA KUMAR\Downloads\Friday.png")
+image = Image.open("Friday.png")
 st.markdown("""
     <h1 style="font-family: 'Courier New', Courier, monospace; color: #4CAF50; text-align: center;">
          FridayAI - Your Smart Assistant 
